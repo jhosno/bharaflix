@@ -1,0 +1,120 @@
+.banner___container {
+  height: 56.25vw;
+  position: relative;
+  color: #fff;
+  object-fit: contain;
+}
+@media screen and (min-width: 1400px) {
+  .banner___container {
+    height: 40.25vw;
+  }
+}
+@media screen and (max-width: 512px) {
+  .banner___container {
+    height: 95.25vw;
+  }
+}
+
+.banner___contents {
+  margin-left: 30px;
+  padding-top: 14rem;
+  height: 190px;
+}
+@media screen and (max-width: 816px) {
+  .banner___contents {
+    padding-top: 9rem;
+  }
+}
+@media screen and (max-width: 512px) {
+  .banner___contents {
+    padding-top: 5rem;
+  }
+}
+
+.banner___title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner___description {
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+/*rgba(37, 37, 37, 0.61)*/
+.banner--fadeBottom {
+  height: 14.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+  position: absolute;
+  bottom: 0px;
+
+  right: 0;
+  left: 0;
+}
+@media screen and (max-width: 816px) {
+  .banner--fadeBottom {
+    height: 8.4rem;
+  }
+}
+@media screen and (max-width: 512px) {
+  .banner--fadeBottom {
+    height: 7.4rem;
+  }
+}
+.banner___buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+.banner___button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 0.5rem 2rem;
+  margin-right: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  max-width: 12rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+.banner___button:hover .banner__infoIcon {
+  stroke: #f9f0f0;
+
+}
+.banner___button:hover {
+  color: #f9f0f0;
+  background-color: rgba(51, 51, 51, 0.641);
+  transition: all 0.2s;
+}
+.banner___playBtn {
+  background-color: #fff;
+  color: #111;
+}
+.banner___playBtn:hover {
+  background-color: rgba(255, 255, 255, 0.855);
+  color: #111;
+}
+.banner__infoIcon,
+.banner___playIcon {
+  margin-right: 0.5rem;
+}
