@@ -52,7 +52,7 @@ const HomeScreen = () => {
                 title='Documentaries'
                 fetchUrl={requests.fetchDocumentaries}
             />
-            <div className='test'></div>
+           {/* <div className='test'></div>*/}
         </div>
     );
 };
