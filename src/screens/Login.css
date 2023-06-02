@@ -1,0 +1,8 @@
+.loginScreen{
+    height: 100vh;
+    background: url('../public/logincanon.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

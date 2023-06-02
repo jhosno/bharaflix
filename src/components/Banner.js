@@ -13,6 +13,7 @@ const Banner = () => {
           Math.floor(Math.random() * request.data.results.length - 1)
         ]
       );
+      console.log( request.data.results);
       return request;
     }
     fetchData();
